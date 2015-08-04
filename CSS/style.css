@@ -36,6 +36,17 @@ body{
 
 /*HEADER*/ 
 
+@media only screen and (max-width: XXX){
+	body{
+		/*add meta tag to every html page 
+
+
+		
+	}
+
+
+}
+
 li{
 	display: inline-block;
 	padding: 20px;
