@@ -1,0 +1,52 @@
+*{
+	box-sizing: border-box;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+body{
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+#container{
+	width: 90%;
+	margin: 0 auto;
+}
+
+/* carousel styles */
+
+.prev, .next{
+	border: none;
+	background: none;
+	float: left;
+	font-size: 2em;
+	line-height: 480px;
+	cursor: pointer;
+	background-color: #ccc;
+	padding: 0 .5rem;
+}
+
+.prev:focus,
+.prev:active,
+.next:focus,
+.next:active{
+	outline: none;
+}
+
+.slide{
+	float: left;
+	display: none;
+	max-width: 480px;
+}
+
+.slide.active{
+	display: block;
+}

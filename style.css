@@ -1,0 +1,172 @@
+/*GLOBAL*/
+
+*{
+	box-sizing: border-box;
+}
+
+@font-face{
+	font-family: BebasNeue;
+	src: url('Fonts/BebasNeue.otf') format("opentype");
+}
+
+@font-face{
+	font-family: SourceSansPro-Regular;
+	src: url('Fonts/SourceSansPro-Regular.otf') format("opentype");
+}
+
+body{
+	text-align: center; 
+	background-color: #18DAEA;
+	font-family: BebasNeue; 
+	margin: 0 auto;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+}
+
+/*HEADER*/ 
+
+li{
+	display: inline-block;
+	padding: 20px;
+	font-size: 20px;
+}
+
+nav{
+	background-color: black;
+}
+
+ul{
+	margin: 0 auto; 
+	padding: 0;
+}
+
+nav a{
+	text-decoration: none;
+	color: white;
+}
+
+h1{
+	font-size: 70px;
+	margin: 20px auto;
+}
+
+h2{
+	font-size: 30px;
+}
+
+/*HOME*/
+
+#home img{ 
+	height: 500px;
+}
+
+/*ABOUT*/
+
+section{
+	margin-bottom: 20px;
+}
+
+article{
+	margin: 0 auto;
+	text-align: left; 
+	font-size: 20px;
+	width: 45%; 
+	font-family: SourceSansPro-Regular;
+}
+
+#nicole{
+	width: 33%;
+	float: right;
+	margin: 0px 0px 0px 20px; 
+}
+
+#poles{
+	width: 33%;  
+	margin: 0px 20px 0px 0px; 
+	float: left;
+}
+
+#about h3{
+	font-style: italic;
+}
+
+/*PORTFOLIO*/
+
+#portfolio{
+	width: 80%;
+	margin: 0 auto;
+}
+
+#portfolio h2{
+	font-size: 40px; 
+}
+
+#portfolio h3{
+	font-size: 30px;
+}
+
+#portfolio h2, #portfolio h3{
+	margin: 10px;
+	cursor: pointer;
+}
+
+#ideoCourse{
+	margin-top: 50px;
+}
+
+#portfolio p{
+	font-family: SourceSansPro-Regular; 
+	font-size: 20px;
+	width: 50%;
+	margin: 0 auto;
+}
+
+/*CAROUSEL STYLES*/
+
+.projectTitle{
+	font-size: 30px;
+	border-radius: 10px;/*remove shadow/outline on buttons?*/
+	margin: 20px;
+	padding: 5px;
+}
+
+.previous, 
+.next{
+	border: none;
+	float: left;
+	font-size: 30px; /*you had this in ems. how did you know what the original font size was?*/
+	line-height: 480px;/*why "line-height" instead of "height"?*/
+	background-color: #ccc;
+	padding: 0 10px; /*you had this in rems. how did you know what the original font size was?*/
+	/*background: none;*/
+}
+
+.prev:focus,
+.prev:active,
+.next:focus,
+.next:active{
+	outline: none;
+}
+
+.slide{
+	float: left;
+	display: none;
+	max-width: 480px; /*why in px units instead of %? why "max-width" instead of "width"? (were you trying to make responsive?)*/
+}
+
+.slide img{
+	width: 50%;
+}
+
+.slide.active{
+	display: block;
+}
+
+

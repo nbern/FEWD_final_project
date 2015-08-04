@@ -1,0 +1,231 @@
+/*GLOBAL*/
+
+*{
+	box-sizing: border-box;
+}
+
+@font-face{
+	font-family: BebasNeue;
+	src: url('Fonts/BebasNeue.otf') format("opentype");
+}
+
+@font-face{
+	font-family: SourceSansPro-Regular;
+	src: url('Fonts/SourceSansPro-Regular.otf') format("opentype");
+}
+
+body{
+	text-align: center; 
+	background-color: #18DAEA;
+	font-family: BebasNeue; 
+	margin: 0 auto;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+}
+
+/*RESPONSIVE LAYOUT*/
+
+
+
+/*HEADER*/ 
+
+li{
+	display: inline-block;
+	padding: 20px;
+	font-size: 20px;
+}
+
+nav{
+	background-color: black;
+}
+
+ul{
+	margin: 0 auto; 
+	padding: 0;
+}
+
+nav a{
+	text-decoration: none;
+	color: white;
+}
+
+h1{
+	font-size: 70px;
+	margin: 20px auto;
+}
+
+h2{
+	font-size: 30px;
+}
+
+/*HOME*/
+
+#home img{ 
+	height: 500px;
+}
+
+/*ABOUT*/
+
+section{
+	margin-bottom: 20px;
+}
+
+article{
+	margin: 0 auto;
+	text-align: left; 
+	font-size: 20px;
+	width: 45%; 
+	font-family: SourceSansPro-Regular;
+}
+
+#nicole{
+	width: 33%;
+	float: right;
+	margin: 0px 0px 0px 20px; 
+}
+
+#poles{
+	width: 33%;  
+	margin: 0px 20px 0px 0px; 
+	float: left;
+}
+
+#about h3{
+	font-style: italic;
+}
+
+/*PORTFOLIO*/
+
+#portfolio{
+	width: 80%;
+	margin: 0 auto 200px auto
+}
+
+#portfolio h2{
+	font-size: 40px; 
+}
+
+#portfolio h3{
+	font-size: 30px;
+}
+
+#portfolio h2, #portfolio h3{
+	margin: 10px;
+}
+
+#ideoCourse{
+	margin-top: 50px;
+}
+
+#portfolio p{
+	font-family: SourceSansPro-Regular; 
+	font-size: 20px;
+	width: 90%;
+	margin: 20px auto;
+}
+
+#portfolio a{
+	display: block;
+	font-size: 30px;
+	margin: 20px auto;
+	font-weight: bold; 
+}
+
+/*CAROUSEL STYLES*/
+
+.project{
+	margin: 0 auto;
+	display: none;
+	width: 60%;
+}
+
+.projectTitle{
+	font-size: 25px;
+	border-radius: 10px;
+	margin: 20px auto;
+	padding: 5px;
+	display: block;
+}
+
+.previous, 
+.next{
+	border: none;
+	float: left;
+	font-size: 30px; 
+	line-height: 500px;
+	background-color: black;
+	color: white;
+	padding: 0 10px; 
+	width: 10%;
+}
+
+.prev:focus,
+.prev:active,
+.next:focus,
+.next:active{
+	outline: none;
+}
+
+.slide{
+	float: left;
+	display: none;
+	width: 80%; 
+	height: 500px;
+}
+
+.slide img{
+	width: 100%; 
+	height: 500px;
+	border: 20px solid black;
+}
+
+.slide.active{
+	display: block;
+	margin: 0 auto 250px auto;
+}
+
+.project.active{
+	display: block;
+}
+
+/*TRAVELS*/
+
+#travels img{
+	width: 80%;
+}
+
+#travels p{
+	
+}
+
+#travels .item{
+	float: left;
+	width: 25%;
+}
+
+#travels .row{
+}
+
+#travels h2{
+	font-size: 40px;
+}
+
+#travels h3{
+	font-size: 30px;
+}
+
+/*CONTACT*/
+
+#contact a{
+	font-size: 30px;
+	display: block;
+	margin: 20px;
+}
+
