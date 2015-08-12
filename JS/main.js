@@ -16,11 +16,11 @@ $(".projectTitle").click(function(){
 
 //Open PDFs and external webpages in new tabs when clicked on
 $("#UC_final_Balsamiq").click(function(){
-	window.open("Images/Portfolio/UC/Final Project/Balsamiq wireframes.pdf"); 
+	window.open("Images/Portfolio/UC/Final project/Balsamiq wireframes.pdf"); 
 }); 
 
 $("#UC_final_flow").click(function(){
-	window.open("Images/Portfolio/UC/Final Project/Flows user research.pdf"); 
+	window.open("Images/Portfolio/UC/Final project/Flows user research.pdf"); 
 }); 
 
 $("#resume").click(function(){
