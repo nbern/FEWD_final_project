@@ -15,6 +15,18 @@ $(".projectTitle").click(function(){
 }); 
 
 //Open PDFs and external webpages in new tabs when clicked on
+$("#resume").click(function(){
+	window.open("Resume/Resume_Nicole Bernardi_UX design_9.12.15.pdf"); 
+}); 
+
+$("#ecoCar_featuredescription").click(function(){
+	window.open("Images/Portfolio/ecoCar/Feature - description.pdf"); 
+});
+
+$("#ecoCar_uxtest").click(function(){
+	window.open("Images/Portfolio/ecoCar/UX test.pdf"); 
+});
+
 $("#UC_final_Balsamiq").click(function(){
 	window.open("Images/Portfolio/UC/Final project/Balsamiq wireframes.pdf"); 
 }); 
@@ -23,6 +35,3 @@ $("#UC_final_flow").click(function(){
 	window.open("Images/Portfolio/UC/Final project/Flows user research.pdf"); 
 }); 
 
-$("#resume").click(function(){
-	window.open("Resume/Resume 6.16.15 final.pdf"); 
-}); 
