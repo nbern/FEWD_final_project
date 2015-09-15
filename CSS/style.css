@@ -5,19 +5,24 @@
 }
 
 @font-face{
-	font-family: BebasNeue;
-	src: url('Fonts/BebasNeue.otf') format("opentype");
+	font-family: Aleo-Bold;
+	src: url('Fonts/Aleo-Bold.otf') format("opentype");
 }
 
 @font-face{
-	font-family: SourceSansPro-Regular;
-	src: url('Fonts/SourceSansPro-Regular.otf') format("opentype");
+	font-family: Aleo-Light;
+	src: url('Fonts/Aleo-Light.otf') format("opentype");
+}
+
+@font-face{
+	font-family: Aleo-Regular;
+	src: url('Fonts/Aleo-Regular.otf') format("opentype");
 }
 
 body{
 	text-align: center; 
-	background-color: #18DAEA;
-	font-family: BebasNeue; 
+	background-color: #A9D0F5;
+	font-family: Aleo-Regular; 
 	margin: 0 auto;
 }
 
@@ -28,6 +33,13 @@ body{
      content: " ";
      clear: both;
      height: 0;
+}
+
+hr{
+	height: 1px;
+	border-width: 0;
+	color: black;
+	background-color: black; 
 }
 
 /*RESPONSIVE LAYOUT*/
@@ -67,12 +79,12 @@ nav a{
 }
 
 h1{
-	font-size: 70px;
+	font-size: 60px;
 	margin: 20px auto;
 }
 
 h2{
-	font-size: 30px;
+	font-size: 20px;
 }
 
 /*HOME*/
@@ -92,7 +104,6 @@ article{
 	text-align: left; 
 	font-size: 20px;
 	width: 45%; 
-	font-family: SourceSansPro-Regular;
 }
 
 #nicole{
@@ -105,6 +116,10 @@ article{
 	width: 33%;  
 	margin: 0px 20px 0px 0px; 
 	float: left;
+}
+
+#about h2{
+	font-size: 25px;
 }
 
 #about h3{
@@ -123,14 +138,14 @@ article{
 }
 
 #portfolio h3{
-	font-size: 30px;
+	font-size: 25px;
 }
 
 #portfolio h4{
 	font-size: 20px; 
 }
 
-#portfolio h2, #portfolio h3{
+#portfolio h2, #portfolio h3, #portfolio h4{
 	margin: 10px;
 }
 
@@ -139,7 +154,6 @@ article{
 }
 
 #portfolio p{
-	font-family: SourceSansPro-Regular; 
 	font-size: 20px;
 	width: 90%;
 	margin: 20px auto;
