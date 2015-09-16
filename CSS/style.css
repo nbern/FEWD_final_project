@@ -5,27 +5,30 @@
 }
 
 @font-face{
+	font-family: Aleo-Regular;
+	src: url('Fonts/Aleo-Regular.otf') format("opentype");
+}
+
+@font-face{
 	font-family: Aleo-Bold;
 	src: url('Fonts/Aleo-Bold.otf') format("opentype");
 }
 
-@font-face{
-	font-family: Aleo-Light;
-	src: url('Fonts/Aleo-Light.otf') format("opentype");
-}
-
-@font-face{
-	font-family: Aleo-Regular;
-	src: url('Fonts/Aleo-Regular.otf') format("opentype");
-}
 
 body{
 	text-align: center; 
 	background-color: #A9D0F5;
 	font-family: Aleo-Regular; 
 	margin: 0 auto;
+	font-size: 20px;
 }
 
+hr {
+	height: 1px;
+	border-width: 0;
+	color: black;
+	background-color: black; 
+}
 .clearfix:after {
      visibility: hidden;
      display: block;
@@ -35,11 +38,34 @@ body{
      height: 0;
 }
 
-hr{
-	height: 1px;
-	border-width: 0;
-	color: black;
-	background-color: black; 
+/*GLOBAL - FONT SIZES*/
+
+h1{
+	font-size: 2em;
+}
+
+h2{
+	font-size: 1.5em;
+}
+
+h3{
+	font-size: 1.17em;	
+}
+
+h4{
+	font-size: 1em;
+}
+
+p{
+	font-size: 1em;
+}
+
+li{
+	font-size: 1em;
+}
+
+button{
+	font-size: 1em;
 }
 
 /*RESPONSIVE LAYOUT*/
@@ -61,7 +87,6 @@ hr{
 li{
 	display: inline-block;
 	padding: 20px;
-	font-size: 20px;
 }
 
 nav{
@@ -79,18 +104,13 @@ nav a{
 }
 
 h1{
-	font-size: 60px;
 	margin: 20px auto;
-}
-
-h2{
-	font-size: 20px;
 }
 
 /*HOME*/
 
 #home img{ 
-	height: 500px;
+	height: 400px;
 }
 
 /*ABOUT*/
@@ -102,7 +122,6 @@ section{
 article{
 	margin: 0 auto;
 	text-align: left; 
-	font-size: 20px;
 	width: 45%; 
 }
 
@@ -118,14 +137,6 @@ article{
 	float: left;
 }
 
-#about h2{
-	font-size: 25px;
-}
-
-#about h3{
-	font-style: italic;
-}
-
 /*PORTFOLIO*/
 
 #portfolio{
@@ -134,15 +145,7 @@ article{
 }
 
 #portfolio h2{
-	font-size: 40px; 
-}
-
-#portfolio h3{
-	font-size: 25px;
-}
-
-#portfolio h4{
-	font-size: 20px; 
+	font-family: Aleo-Bold;
 }
 
 #portfolio h2, #portfolio h3, #portfolio h4{
@@ -154,14 +157,12 @@ article{
 }
 
 #portfolio p{
-	font-size: 20px;
 	width: 90%;
 	margin: 20px auto;
 }
 
 #portfolio a{
 	display: block;
-	font-size: 30px;
 	margin: 20px auto;
 	font-weight: bold; 
 }
@@ -175,7 +176,6 @@ article{
 }
 
 .projectTitle{
-	font-size: 25px;
 	border-radius: 10px;
 	margin: 20px auto;
 	padding: 5px;
@@ -244,10 +244,6 @@ article{
 	width: 80%;
 }
 
-#travels p{
-	
-}
-
 #travels .item{
 	float: left;
 	width: 25%;
@@ -256,18 +252,9 @@ article{
 #travels .row{
 }
 
-#travels h2{
-	font-size: 40px;
-}
-
-#travels h3{
-	font-size: 30px;
-}
-
 /*CONTACT*/
 
 #contact a{
-	font-size: 30px;
 	display: block;
 	margin: 20px;
 }
