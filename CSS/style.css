@@ -14,13 +14,17 @@
 	src: url('Fonts/Aleo-Bold.otf') format("opentype");
 }
 
-
 body{
 	text-align: center; 
 	background-color: #A9D0F5;
 	font-family: Aleo-Regular; 
 	margin: 0 auto;
 	font-size: 20px;
+}
+
+.container{
+	width: 80%;
+	margin: 0 auto;
 }
 
 hr {
@@ -122,7 +126,7 @@ section{
 article{
 	margin: 0 auto;
 	text-align: left; 
-	width: 45%; 
+	width: 65%; 
 }
 
 #nicole{
@@ -137,7 +141,7 @@ article{
 	float: left;
 }
 
-/*PORTFOLIO*/
+/*PROJECTS*/
 
 #portfolio{
 	width: 80%;
@@ -152,8 +156,9 @@ article{
 	margin: 10px;
 }
 
+#udacityCourse, 
 #ideoCourse{
-	margin-top: 50px;
+	margin: 50px;
 }
 
 #portfolio p{
@@ -232,10 +237,10 @@ article{
 	display: block;
 }
 
-#ecoCar, 
-#udacityCourse, 
-#ideoCourse{
-	margin: 50px;
+/*PUBLICATIONS*/
+
+#publications span{
+	font-style: italic;
 }
 
 /*TRAVELS*/
