@@ -110,6 +110,23 @@ h1{
 	margin: 20px auto;
 }
 
+/*SIGNATURE*/
+
+.signature{
+	float: right;
+	margin-right: 20px;
+}
+
+.signature img{
+	float: left;
+	height: 50px;
+}
+
+.signature h3{
+	float: right;
+	font-style: italic;
+}
+
 /*HOME*/
 
 #home img{ 
