@@ -16,7 +16,7 @@ $(".projectTitle").click(function(){
 
 //Open PDFs and external webpages in new tabs when clicked on
 $("#resume").click(function(){
-	window.open("Resume/Resume_Nicole Bernardi_UX design_9.12.15.pdf"); 
+	window.open("Resume/Resume_Nicole Bernardi_UX Research and Design.pdf"); 
 }); 
 
 $("#ecoCar_featuredescription").click(function(){
