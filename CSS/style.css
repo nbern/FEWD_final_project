@@ -32,6 +32,7 @@ hr {
 	border-width: 0;
 	color: black;
 	background-color: black; 
+	margin: 40px auto;
 }
 .clearfix:after {
      visibility: hidden;
@@ -74,10 +75,6 @@ button{
 
 /*RESPONSIVE LAYOUT*/
 
-
-
-/*HEADER*/ 
-
 @media only screen and (max-width: XXX){
 	body{
 		/*add meta tag to every html page*/
@@ -87,6 +84,8 @@ button{
 
 
 }
+
+/*HEADER*/ 
 
 li{
 	display: inline-block;
@@ -152,17 +151,8 @@ article{
 	font-family: Aleo-Bold;
 }
 
-#portfolio h2, #portfolio h3, #portfolio h4{
-	margin: 10px;
-}
-
-#udacityCourse, 
-#ideoCourse{
-	margin: 50px;
-}
-
 #portfolio p{
-	width: 90%;
+	width: 100%;
 	margin: 20px auto;
 }
 
