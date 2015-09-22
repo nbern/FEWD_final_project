@@ -23,7 +23,7 @@ body{
 }
 
 .container{
-	width: 80%;
+	width: 85%;
 	margin: 0 auto;
 }
 
@@ -127,10 +127,23 @@ h1{
 	font-style: italic;
 }
 
+/*FOOTER*/
+
+/*footer img{
+	height: 50px;
+}
+
+footer ul{
+	color: white;
+	height: 65px; 
+	background-color: black;
+}*/
+
 /*HOME*/
 
 #home img{ 
 	height: 400px;
+	margin-bottom: 20px;
 }
 
 /*ABOUT*/
